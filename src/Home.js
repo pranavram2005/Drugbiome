@@ -9,7 +9,7 @@ const Home =()=>{
         </div>
         <div className='absolute h-full w-full flex justify-center md:justify-end items-center md:px-36'>
             <div className='flex flex-col'><h2 className='text-white z-100 md:text-5xl text-4xl z-1000'>Gut Microbiome<br/>Index</h2><div>
-                <Link to="/microbes"><button className='rounded-full bg-blue-500 mt-5 p-3 hover:bg-blue-700 md:text-xl text-xl text-white'>Check you Microbiomes</button></Link>
+                <Link to="/microbes"><button className='rounded-full bg-blue-500 mt-5 p-3 hover:bg-blue-700 md:text-xl text-xl text-white'>Check your Microbiomes</button></Link>
                 </div></div>
             
         </div>

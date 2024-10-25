@@ -92,7 +92,7 @@ const Microbes = () => {
     return (
         <div className="flex flex-col lg:flex-row bg-gray-900 p-8 gap-10 min-h-screen h-auto -mt-32">
             <div className="lg:w-1/3 bg-gray-800 rounded-lg p-6 shadow-lg text-white mt-32">
-                <h1 className="text-3xl font-semibold mb-6">Filter Microbes</h1>
+                <h1 className="text-2xl font-semibold mb-6">Filter Microbes</h1>
                 <form onSubmit={handleSubmit} className="space-y-4">
                     <div>
                         <select className="form-select w-full p-2 bg-gray-700 border border-gray-600 rounded text-gray-300"
@@ -141,19 +141,19 @@ const Microbes = () => {
             
             <div className="lg:w-2/3 mt-32">
                 <div className="overflow-auto bg-gray-800 rounded-lg p-6 shadow-lg">
-                <h1 className="text-3xl font-semibold text-white mb-6">Microbial Data</h1>
+                <h1 className="text-2xl font-semibold text-white mb-6">Microbial Data</h1>
                     <table className="w-full text-left text-white">
                         <thead>
                             <tr>
-                                <th className="p-3 text-xl border-b text-center border-gray-700">Species</th>
-                                <th className="p-3 text-xl border-b text-center border-gray-700">Percentage</th>
+                                <th className="p-3 text-lg border-b text-center border-gray-700">Species</th>
+                                <th className="p-3 text-lg border-b text-center border-gray-700">Percentage</th>
                             </tr>
                         </thead>
                         <tbody>
                             {filteredSpecies.length > 0 ? (
                                 filteredSpecies.map((user, id) => { 
                                     return(<tr key={id}>
-                                        <td className="p-3 border-b text-center border-gray-700"><i className="text-lg">{user.Species}</i></td>
+                                        <td className="p-3 border-b text-center border-gray-700"><i className="text-md">{user.Species}</i></td>
                                         <td className="p-3 border-b text-center border-gray-700">{((parseFloat(user.Percent)/total)*100).toFixed(4)}%</td>
                                     </tr>)
 })
