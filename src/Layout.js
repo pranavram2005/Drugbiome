@@ -32,11 +32,11 @@ const Layout = () => {
         <div className="w-5/6 ml-4 lg:ml-16 flex justify-between items-center">
           <div className="flex items-center">
             <img src={logo} className="h-16 w-16" alt="Shaastra Logo" />
-            <Link to="/"><h2 className="text-2xl lg:text-4xl text-slate-200 ml-2">Gut Microbiome Index</h2></Link>
+            <Link to="/"><h2 className="text-xl lg:text-3xl text-slate-200 ml-2">Gut Microbiome Index</h2></Link>
           </div>
 
           {/* Desktop Menu */}
-          <div className="hidden lg:flex text-2xl w-3/5 space-x-16 justify-end items-center text-slate-200">
+          <div className="hidden lg:flex text-xl w-3/5 space-x-16 justify-end items-center text-slate-200">
             <Link to="/">Home</Link>
             <Link to="/subject">Subject</Link>
             <Link to="/microbes">Microbes</Link>

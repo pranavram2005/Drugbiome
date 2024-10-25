@@ -7,13 +7,13 @@ const Aboutus = () => {
     <>
       <div className="h-auto w-full bg-[#03213d] py-8 px-4">
         <div className="w-full text-center">
-          <h1 className="text-white text-5xl md:text-6xl lg:text-7xl font-bold font-serif">About Us</h1>
+          <h1 className="text-white text-5xl md:text-6xl lg:text-6xl font-bold font-serif">About Us</h1>
         </div>
-        <p className="text-left mt-5 text-lg md:text-xl lg:text-2xl fonting antialiased text-white mx-4 md:mx-16">
+        <p className="text-left mt-5 text-lg md:text-xl lg:text-lg fonting antialiased text-white mx-4 md:mx-16">
           Our team is a group of tech and research enthusiasts, currently pursuing undergraduate studies at IIT Madras, working on various aspects of the project under the guidance of Prof. Sanjuktha Patra from the Biotech Department.
         </p>
 
-        <h3 className="text-center mt-10 text-3xl md:text-4xl lg:text-5xl font-serif antialiased text-white mx-4 md:mx-16">Research and Data Analysis</h3>
+        <h3 className="text-center mt-10 text-3xl md:text-4xl lg:text-4xl font-serif antialiased text-white mx-4 md:mx-16">Research and Data Analysis</h3>
 
         {/* Research Section */}
         <div className="flex flex-col lg:flex-row justify-around items-center w-full mt-10 space-y-10 lg:space-y-0 lg:space-x-10 px-4">
@@ -21,7 +21,7 @@ const Aboutus = () => {
           <ProfileCard name="K.Eswar Datta sai" title="Research and Data Analyst" image={ig2} link1={"_chaotic.brain_/"} link={"k-eswar-datta-sai-371690264/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"}/>
         </div>
 
-        <h3 className="text-center mt-10 text-3xl md:text-4xl lg:text-5xl font-serif antialiased text-white mx-4 md:mx-16">Web Operations</h3>
+        <h3 className="text-center mt-10 text-3xl md:text-4xl lg:text-4xl font-serif antialiased text-white mx-4 md:mx-16">Web Operations</h3>
 
         {/* Web Operations Section */}
         <div className="flex flex-col lg:flex-row justify-around items-center lg:items-start w-full mt-10 space-y-10 lg:space-y-0 lg:space-x-10 px-4">

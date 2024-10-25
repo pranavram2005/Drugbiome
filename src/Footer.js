@@ -14,8 +14,8 @@ const Footer = () => {
         
         {/* Address Section */}
         <div className="text-center md:text-left w-full md:w-2/4 mb-8 md:mb-0">
-          <h3 className="text-orange-400 text-3xl md:text-4xl font-bold mb-3">Address</h3>
-          <ul className="space-y-4 text-xl md:text-2xl">
+          <h3 className="text-orange-400 text-3xl md:text-3xl font-bold mb-3">Address</h3>
+          <ul className="space-y-4 text-xl md:text-xl">
             <li>
               <i className='bx bx-location-plus mr-2'></i> 
               Biotech Club, Center For Innovation, X6VH+6XQ, Indian Institute Of Technology, Chennai, Tamil Nadu 600036

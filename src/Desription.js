@@ -7,7 +7,7 @@ const Description = () => {
         <div className="w-full flex flex-col">
           <div className="flex flex-col md:flex-row mt-4 md:h-[600px]">
             <div className="w-full md:w-1/2">
-              <h2 className="text-4xl md:text-6xl lg:text-7xl text-left">Project Description</h2>
+              <h2 className="text-4xl md:text-6xl lg:text-5xl text-left">Project Description</h2>
               <p className="text-left mt-5 fonting antialiased">
                 Our project DMI aims to create a database for the microbial data specific to the Indian subcontinent, by classifying the population based on various parameters like Age, Sex, Location, Health & Disease, Genetic factors, and so on. With this database built, we then use the commonly found strains of bacteria and see how differently they react with antibiotics and drugs. We predict that there must be some change for an Indian gut microbiome hence modeling and complementing it with wet lab experiments could provide us an insight into how drugs react differently for an Indian population compared to a western population.
               </p>

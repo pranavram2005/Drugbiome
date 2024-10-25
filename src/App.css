@@ -35,15 +35,14 @@ body::-webkit-scrollbar {
 }
 .fonting{
   font-family: 'Roboto', sans-serif;
-  line-height: 42px;
+  line-height: 37px;
   letter-spacing: 0.015em;
-  font-size: 26px;
+  font-size: 23px;
 }
 @media only screen and (max-width: 768px) {
   .fonting{
     font-size: 20px;
     line-height: 25px;
-
   }
 }
 i{
