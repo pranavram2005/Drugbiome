@@ -70,7 +70,7 @@ const Subject = () => {
 
     return (
       <div className="bg-gray-100 min-h-screen p-8 w-full">
-      <h1 className="text-3xl font-bold text-center text-indigo-600 mb-6">Gut Microbiome Analysis</h1>
+      <h1 className="text-2xl font-bold text-center text-indigo-600 mb-6">Gut Microbiome Analysis</h1>
       <input
           placeholder="Search by Subject ID..."
           type="text"
@@ -88,7 +88,7 @@ const Subject = () => {
   
       <table className="w-full bg-white shadow-lg rounded-lg overflow-x">
           <thead>
-              <tr className="bg-indigo-600 text-white text-md md:text-lg uppercase tracking-wider">
+              <tr className="bg-indigo-600 text-white text-md md:text-sm uppercase tracking-wider">
                   <th className="py-3 px-6">Subject_ID</th>
                   <th className="py-3 px-6 flex flex-col">
                       Location
@@ -137,7 +137,7 @@ const Subject = () => {
                               </button>
                               {ActiveID === user.Subject_ID && (
                                   <div className="mt-3 p-4 bg-gray-50 rounded-lg shadow-md">
-                                      <h2 className="text-lg font-semibold mb-2 text-indigo-700">{user.Subject_ID} Microbes</h2>
+                                      <h2 className="text-md font-semibold mb-2 text-indigo-700">{user.Subject_ID} Microbes</h2>
                                       <table className="w-full">
                                           <thead>
                                               <tr className="bg-gray-200 text-xl">
