@@ -136,7 +136,7 @@ const Subject = () => {
                                   {ActiveID === user.Subject_ID ? "Hide" : "See"} Microbes
                               </button>
                               {ActiveID === user.Subject_ID && (
-                                  <div className="mt-3 p-4 bg-gray-50 rounded-lg shadow-md absolute right-0">
+                                  <div className="mt-3 p-4 bg-gray-50 rounded-lg shadow-md">
                                       <h2 className="text-lg font-semibold mb-2 text-indigo-700">{user.Subject_ID} Microbes</h2>
                                       <table className="w-full">
                                           <thead>
