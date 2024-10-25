@@ -19,7 +19,7 @@
 .box tbody{
   font-size: 20px;
 }
-.App table{
+/* .App table{
   width: 90%;
   margin: 20px;
   margin-left: 80px;
@@ -29,4 +29,23 @@
 }
 .App table tr td{
   font-size: 20px;
+} */
+body::-webkit-scrollbar {
+  display: none;                  /* Chrome, Safari, and Opera */
+}
+.fonting{
+  font-family: 'Roboto', sans-serif;
+  line-height: 42px;
+  letter-spacing: 0.015em;
+  font-size: 26px;
+}
+@media only screen and (max-width: 768px) {
+  .fonting{
+    font-size: 20px;
+    line-height: 25px;
+
+  }
+}
+i{
+  font-size: 43px;
 }

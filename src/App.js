@@ -7,6 +7,7 @@ import Home from './Home';
 import Aboutus from './Aboutus';
 import Analytics from './Analytics';
 import Layout from './Layout';
+import Footer from './Footer';
 function App() {
   
   return (
@@ -15,11 +16,11 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout/>}>
           <Route index element={<Home/>} />
-          <Route path="aboutus" element={<Aboutus/>} />
           <Route path="analytics" element={<Analytics/>} />
           <Route path='subject' element={<Subject/>}/>
           <Route path='microbes' element={<Microbes/>}/>
         </Route>
+        {/* <Route path="footer" element={<Footer/>} /> */}
       </Routes>
     </BrowserRouter>      
     </div>
